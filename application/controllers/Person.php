@@ -15,7 +15,7 @@ class Person extends CI_Controller {
 		$this->load->view('person_view');
 	}
 
-	public function ajax_list()
+	public function ajax_list() // This method is for list using ajax
 	{
 		$this->load->helper('url');
 		/*echo "<pre>";
